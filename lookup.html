@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bookshop</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Bookshop</h1>
+</header>
+<p id="status">Ask for one item.</p>
+<section id="ask">
+  <h2>Ask</h2>
+  <input id="item" type="text">
+  <button id="find" type="button">Find</button>
+</section>
+<section id="card">
+  <h2>Card</h2>
+  <p id="card-name"></p>
+  <p id="card-price"></p>
+</section>
+<section id="slip-wrap">
+  <h2>Slip</h2>
+  <table>
+    <thead><tr><th>Item</th><th>Price</th><th>Times</th></tr></thead>
+    <tbody id="slip"></tbody>
+  </table>
+</section>
+<section id="figures">
+  <h2>Figures</h2>
+  <p>Found <span id="found">0</span></p>
+  <p>Dearest <span id="dearest">0</span></p>
+</section>
+<footer>F24A-000</footer>
+<script src="script.js"></script>
+</body>
+</html>
