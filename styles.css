@@ -1,5 +1,5 @@
 body { margin: 0; font-family: "Segoe UI", sans-serif; color: #222; background: #f6f4ef; }
-header { background: navy; color: white; padding: 1rem 1.25rem; }
+header { background: purple; color: white; padding: 1rem 1.25rem; }
 header h1 { margin: 0; color: white; }
 #status { margin: 1rem 1.25rem; font-size: 1.15rem; }
 section { margin: 0 1.25rem 1rem; padding: 0.8rem 1rem; background: #fff; border: 1px solid #c8c2b4; }
