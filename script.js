@@ -68,5 +68,4 @@ async function findItem() {
     find.disabled = false;
   }
 }
-
 if (find !== null) find.addEventListener("click", findItem);
